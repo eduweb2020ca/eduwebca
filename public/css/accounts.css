@@ -1,0 +1,97 @@
+.navbar-default{
+	background: #F9D342;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: Adlinnaka;
+    font-size: 18px;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    font-family: Adlinnaka;
+    font-size: 22px;
+}
+
+
+.jumbotron{
+	background: #F9D342;
+	position: absolute;
+	position: fixed;
+}
+.navbar-brand>img{
+	margin-top: -12.5px;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url(back.jpg);
+	background-size: cover;
+
+}
+
+
+
+.login-box{
+	width: 280px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+}
+
+.login-box h1{
+	float: left;
+	border-bottom: 4px solid #F9D342;
+	margin-bottom: 25px;
+	/*padding: 15px 0;*/
+	font-size: 45px;
+	font-family: Poppins;
+	position: absolute;
+	top: -40%;
+	left: 38%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 17px;
+	padding: 4px 0;
+	margin: 8px 0;
+
+
+
+}
+input{
+	border-radius: 15px;
+	background: #292826;
+	border-color: #292826;
+	outline: none;
+	font-color: white;
+}
+::placeholder{
+	color: white;	
+	font-family: century gothic;
+	padding-left: 10px;
+}
+button{
+	width: 60%;
+	background: white;
+	border-radius: 15px;
+	border-width: 0px;
+	position: absolute;
+	left: 10%;
+	height: 20%;
+	font-size: 20px;
+	font-family: century gothic;
+	margin-top: 30px;
+	outline: none;
+
+}
+
+#subject{
+	height: 40px;
+}

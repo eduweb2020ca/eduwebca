@@ -1,0 +1,197 @@
+.navbar-default{
+	background: #F9D342;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #FFFFFF;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: Adlinnaka;
+    font-size: 18px;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    font-family: Adlinnaka;
+    font-size: 22px;
+}
+#heading1{
+	font-family: bebas;	
+	color:#292826;
+	font-size: 95px;
+	margin-left: 20px;
+}
+#one{
+	color:#F9D342;
+	font-family: Adlinnaka;
+	font-size: 95px;
+	position: absolute;
+	top:30%;
+	
+}
+#three{
+	color:#F9D342;
+	font-family: Bahnschrift;
+	font-style: bold;
+	font-size: 72.5px;
+	position: absolute;
+	top:57%;
+
+}
+#eduweb{
+	color:#292826;
+	text-decoration: underline;
+	text-decoration-color:  #F9D342;
+	text-underline-position: 10px;
+	font-family: century gothic;
+	font-size: 50px;
+	margin-left: 90px;
+}
+#faculty{
+	color: #292826; 
+	text-decoration: underline;
+	text-decoration-color:  #F9D342;
+	font-size: 50px;
+	margin-left: 90px;
+	font-family: century gothic;
+	
+}
+#methodology{
+	color: #292826;
+	text-decoration: underline;
+	text-decoration-color:  #F9D342;
+	margin-left: 500px;
+	font-family: century gothic;
+	/*font-style: italic;*/
+	margin-top: 100px;
+	font-size: 50px;
+}
+#conn{
+	color: #292826;
+	text-decoration: underline;
+	text-decoration-color:  #F9D342;
+	margin-left: 500px;
+	font-family: century gothic;
+	/*font-style: italic;*/
+	font-size: 50px
+}
+#two{
+	font-family: bebas;
+	color: #292826;
+	font-size: 94px;
+	position: absolute;
+	top:43%;
+}
+#four{
+	font-family: arial;
+
+	font-style: italic;
+	color: #292826;
+	font-size: 62.5px;
+	position: absolute;
+	top:67.5%;
+}
+#one, #two, #three, #four{
+	margin-left: 1050px;
+}
+#paratwo, #paraone, #parathree{
+	font-family: Century Gothic;
+	font-size: 16px;
+	font-style: italic;	
+}
+#FACULTY{
+	font-family: Century Gothic;
+	font-size: 16px;
+	font-style: italic;
+	margin-left: 320px;
+	position: relative;
+	width: 20%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(900px, 1fr));
+	grid-gap: 0 40px;
+	margin-left: 480px;
+	color: #292826;
+	margin-top: -390px;
+	
+
+
+}
+#aim, #connectivity, #note{
+	font-family: Century Gothic;
+	font-size: 16px;
+	font-style: italic;
+}
+.container #eduweb{
+	background: #292826;
+}
+#paraoneone{
+	position: relative;
+	width: 20%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+	grid-gap: 0 40px;
+	top: 15%;
+	margin-left: 90px;
+	color: #292826;
+}
+#paratwotwo{
+	position: relative;
+	width: 20%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+	grid-gap: 0 40px;
+	margin-left: 90px;
+	color: #292826;
+	
+}
+#parathreethree{
+	position: relative;
+	width: 20%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+	grid-gap: 0 40px;
+	margin-left: 90px;
+	color: #292826;
+}
+#lappy{
+	position: absolute;
+	margin-left: 810px;
+	top: 0%;
+}
+#madam{
+	margin-left: -90px;
+}
+#home{
+	text-decoration: underline;
+}
+#contact{
+	font-family: bebas;
+	font-size: 44px;
+	color: white;
+	text-decoration: underline;
+	text-decoration-color: #292826;
+}
+#info{
+	font-family: century gothic;
+	font-size: 20px;
+	color:white;
+	font-style: italic;
+}
+.navbar-brand>img{
+	margin-top: -12.5px;
+}
+/*.jumbotron{
+	background: #F9D342;
+	position: absolute;
+	position: fixed;
+}*/
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: #F9D342;
+    background-color: #F9D342;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 	<title>Document</title>
+</head>
+<body>
+	<form class="" action="/email" method="post">
+    <input name="Name" type="text" id="name" placeholder=Name><br>
+    <input name="email" type="email" id="email" placeholder="email"><br>
+    <input name="subject" type="text" id="subject" placeholder="subject"><br>
+    <textarea name="text" id="text" cols="30" rows="10"></textarea><br>
+    <input type="submit" value="submit">
+  </form>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+  $('form').on('submit', (e) => {
+    e.preventDefault();
+
+    const email = $('#email').val().trim();
+    const subject = $('#subject').val().trim();
+    const text = $('#text').val().trim();
+    const name = $('#name').val().trin();
+
+    const data = {
+      email,
+      subject,
+      text,
+      name
+    };
+    $.post('/email', data, function() {
+      console.log('server received our data');
+    }
+
+
+  });
+
+  </script>
+</body>
+</html>

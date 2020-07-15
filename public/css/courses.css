@@ -1,0 +1,78 @@
+h4{
+	font-family: century gothic;
+	color: #F9D342;
+	margin-top: 50px;
+	margin-left: 100px;
+	font-size: 24px;
+	font-style: italic;
+	text-decoration: underline;
+	text-decoration-color: white;
+	
+}
+body{
+	background:  #292826;
+}
+li{
+	color: white;
+	font-family: century gothic;	
+}
+h1{
+	font-family: bebas;
+	font-size: 80px;
+	color: white;
+	text-decoration: underline;
+	text-decoration-color: #F9D342;
+	margin-left: 500px;
+}
+ul{
+	margin-left: 100px;
+	color: #F9D342;
+	font-family:  century gothic;
+
+}
+.navbar-default{
+	background: #F9D342;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    font-family: Adlinnaka;
+    font-size: 18px;
+}
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    font-family: Adlinnaka;
+    font-size: 22px;
+}
+
+#us{
+	color: #292826;
+	margin-left: 100px;
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+#course{
+	text-decoration: underline;
+}
+#contact{
+	font-family: bebas;
+	font-size: 44px;
+	color: white;
+	text-decoration: underline;
+	text-decoration-color: #292826;
+}
+#info{
+	font-family: century gothic;
+	font-size: 20px;
+	color:white;
+	font-style: italic;
+}
+.navbar-brand>img{
+	margin-top: -12.5px;
+}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: #F9D342;
+    background-color: #F9D342;
+}
